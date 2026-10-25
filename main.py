@@ -29,7 +29,7 @@ def transform_data(raw_data):
 
 def load_data(df,output_path):
     os.makedirs(os.path.dirname(output_path),exist_ok=True)
-    df.to_csv("output_path",index=False)
+    df.to_csv("output_hr_path",index=False)
    
     logger.info(f"File saved to {output_path}")
 
